@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  GET '/attractions/search', to 'attractions#search'
+  get '/search/:query', to: 'attractions#search'
 
 end

@@ -1,5 +1,5 @@
-class Attractions < ApplicationController
-  
+class AttractionsController < ApplicationController
+
   def search
     query = params[:query]
 
